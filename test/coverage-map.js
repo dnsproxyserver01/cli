@@ -14,6 +14,7 @@ const coverageMap = (filename) => {
       filename.replace(/^test\//, ''),
       'lib/npm.js',
       'lib/base-command.js',
+      'lib/package-url-command.js',
       'lib/exec/get-workspace-location-msg.js',
     ]
   }
